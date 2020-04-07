@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Theaters of Kirov</string>
+    <string name="theaterTUZ_name">Spasskaya Theater</string>
+    <string name="theaterTUZ_address">Kirov, st. Spasskaya, 17</string>
+    <string name="theaterDrama_name">Kirov Drama Theater</string>
+    <string name="theaterDrama_address">Kirov, st. Moscow, 37</string>
+    <string name="theaterDol_name">Kirov Puppet Theater named after A.N. Afanasyev</string>
+    <string name="theaterDol_address">Kirov, st. Spasskaya, 22</string>
+    <string name="theaterTUZ_site">https://ekvus-kirov.ru/</string>
+    <string name="theaterDrama_site">https://kirovdramteatr.ru/</string>
+    <string name="theaterDol_site">http://kirovkukla.ru/</string>
+    <string name="theaterTUZ_vk">https://vk.com/teatr_kukol_kirov</string>
+    <string name="theaterDrama_vk">https://vk.com/kirov.dramteatr</string>
+    <string name="theaterDol_vk">https://vk.com/theateronthespasskaya</string>
+    <string name="theaterTUZ_tel">+7 (8332) 71-57-20</string>
+    <string name="theaterDrama_tel">+7 (8332) 64-32-52</string>
+    <string name="theaterDol_tel">+7 (8332) 41-14-99</string>
+</resources>

@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Театры Кирова</string>
+    <!--Названия театров и адреса-->
+    <string name="theaterTUZ_name">Театр на Спасской</string>
+    <string name="theaterTUZ_address">г.Киров, ул. Спасская,17</string>
+    <string name="theaterTUZ_site">https://ekvus-kirov.ru/</string>
+    <string name="theaterTUZ_vk">https://vk.com/teatr_kukol_kirov</string>
+    <string name="theaterTUZ_tel">+7 (8332) 71-57-20</string>
+    <string name="theaterDrama_name">Кировский драматический театр</string>
+    <string name="theaterDrama_address">г.Киров, ул. Московская,37</string>
+    <string name="theaterDrama_site">https://kirovdramteatr.ru/</string>
+    <string name="theaterDrama_vk">https://vk.com/kirov.dramteatr</string>
+    <string name="theaterDrama_tel">+7 (8332) 64-32-52</string>
+    <string name="theaterDol_name">Кировский театр кукол имени А.Н. Афанасьева</string>
+    <string name="theaterDol_address">г.Киров, ул. Спасская,22</string>
+    <string name="theaterDol_site">http://kirovkukla.ru/</string>
+    <string name="theaterDol_vk">https://vk.com/theateronthespasskaya</string>
+    <string name="theaterDol_tel">+7 (8332) 41-14-99</string>
+    <string name="title_activity_theater">TheaterActivity</string>
+    <string-array name="theater_names">
+        <item>@string/theaterTUZ_name</item>
+        <item>@string/theaterDrama_name</item>
+        <item>@string/theaterDol_name</item>
+    </string-array>
+    <string-array name="theater_address">
+        <item>@string/theaterTUZ_address</item>
+        <item>@string/theaterDrama_address</item>
+        <item>@string/theaterDol_address</item>
+    </string-array>
+    <string-array name="theater_site">
+        <item>@string/theaterTUZ_site</item>
+        <item>@string/theaterDrama_site</item>
+        <item>@string/theaterDol_site</item>
+    </string-array>
+    <string-array name="theater_vk">
+        <item>@string/theaterTUZ_vk</item>
+        <item>@string/theaterDrama_vk</item>
+        <item>@string/theaterDol_vk</item>
+    </string-array>
+    <string-array name="theater_tel">
+        <item>@string/theaterTUZ_tel</item>
+        <item>@string/theaterDrama_tel</item>
+        <item>@string/theaterDol_tel</item>
+    </string-array>
+</resources>
