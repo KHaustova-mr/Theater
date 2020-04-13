@@ -12,6 +12,7 @@ import com.example.theaters.model.Theater;
 
 public class TheaterActivity extends AppCompatActivity {
     private Theater theater;
+    private int number;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,6 +20,7 @@ public class TheaterActivity extends AppCompatActivity {
         setContentView(R.layout.activity_theater);
         Bundle intent = getIntent().getExtras();
         theater = (Theater)(intent != null ? intent.getSerializable("theater") : null);
+        number = (int)(intent != null ? intent.get("number") : -1);
 
         ((ImageView)findViewById(R.id.theater_image_view_details)).setImageResource(theater.getImageId());
         ((TextView)findViewById(R.id.theater_name_text_view_details)).setText(theater.getName());
@@ -32,6 +34,7 @@ public class TheaterActivity extends AppCompatActivity {
     public void TroupeButtonClick(View view){
         Intent intent = new Intent(getApplicationContext(),ActorsActivity.class);
         intent.putExtra("theater", theater);
+        intent.putExtra("number", number);
         startActivity(intent);
     }
 }

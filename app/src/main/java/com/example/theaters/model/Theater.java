@@ -10,6 +10,7 @@ public class Theater implements Serializable {
     private String site;
     private String vk;
     private String tel;
+    private String troupeUrl;
 
     public Theater() {
     }
@@ -32,4 +33,6 @@ public class Theater implements Serializable {
     public String getTel() { return tel; }
     public void setTel(String tel) { this.tel = tel; }
 
+    public String getTroupeUrl() { return troupeUrl; }
+    public void setTroupeUrl(String troupeUrl) { this.troupeUrl = troupeUrl; }
 }

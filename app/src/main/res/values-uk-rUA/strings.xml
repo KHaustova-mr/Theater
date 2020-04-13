@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Театри Кірова</string>
+    <string name="button_poster_text">АФІША</string>
+    <string name="button_troupe_text">ТРУПА</string>
     <!--Названия театров и адреса-->
     <string name="theaterTUZ_name">Театр на Спаській</string>
     <string name="theaterTUZ_address"> г.Киров, вул. Спаська, 17</string>
@@ -17,4 +19,7 @@
     <string name="theaterTUZ_tel">+7 (8332) 71-57-20</string>
     <string name="theaterDrama_tel">+7 (8332) 64-32-52</string>
     <string name="theaterDol_tel">+7 (8332) 41-14-99</string>
+    <string name="theaterTUZ_troupeUrl">https://ekvus-kirov.ru/truppa/</string>
+    <string name="theaterDrama_troupeUrl">https://kirovdramteatr.ru/truppa/</string>
+    <string name="theaterDol_troupeUrl">http://kirovkukla.ru/truppa</string>
 </resources>

@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     String[] theaterVk;
     String[] theaterSite;
     String[] theaterTel;
+    String[] theaterTroupeUrl;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
         theaterVk = getResources().getStringArray(R.array.theater_vk);
         theaterSite = getResources().getStringArray(R.array.theater_site);
         theaterTel = getResources().getStringArray(R.array.theater_tel);
+        theaterTroupeUrl = getResources().getStringArray(R.array.theater_troupeUrl);
 
         Theater theater = new Theater();
 
@@ -42,9 +44,11 @@ public class MainActivity extends AppCompatActivity {
         theater.setSite(theaterSite[number]);
         theater.setTel(theaterTel[number]);
         theater.setAddress(theaterAddress[number]);
+        theater.setTroupeUrl(theaterTroupeUrl[number]);
 
         Intent intent = new Intent(getApplicationContext(),TheaterActivity.class);
         intent.putExtra("theater", theater);
+        intent.putExtra("number", number);
         startActivity(intent);
 
     }

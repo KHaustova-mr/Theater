@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Theaters of Kirov</string>
+    <string name="button_poster_text">POSTER</string>
+    <string name="button_troupe_text">TROUPE</string>
     <string name="theaterTUZ_name">Spasskaya Theater</string>
     <string name="theaterTUZ_address">Kirov, st. Spasskaya, 17</string>
     <string name="theaterDrama_name">Kirov Drama Theater</string>
@@ -16,4 +18,7 @@
     <string name="theaterTUZ_tel">+7 (8332) 71-57-20</string>
     <string name="theaterDrama_tel">+7 (8332) 64-32-52</string>
     <string name="theaterDol_tel">+7 (8332) 41-14-99</string>
+    <string name="theaterTUZ_troupeUrl">https://ekvus-kirov.ru/truppa/</string>
+    <string name="theaterDrama_troupeUrl">https://kirovdramteatr.ru/truppa/</string>
+    <string name="theaterDol_troupeUrl">http://kirovkukla.ru/truppa</string>
 </resources>
