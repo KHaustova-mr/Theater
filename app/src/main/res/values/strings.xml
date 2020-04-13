@@ -16,7 +16,6 @@
     <string name="theaterDol_site">http://kirovkukla.ru/</string>
     <string name="theaterDol_vk">https://vk.com/theateronthespasskaya</string>
     <string name="theaterDol_tel">+7 (8332) 41-14-99</string>
-    <string name="title_activity_theater">TheaterActivity</string>
     <string-array name="theater_names">
         <item>@string/theaterTUZ_name</item>
         <item>@string/theaterDrama_name</item>

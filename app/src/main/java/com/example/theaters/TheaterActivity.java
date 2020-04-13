@@ -2,7 +2,9 @@ package com.example.theaters;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -14,9 +16,8 @@ public class TheaterActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_theater2);
+        setContentView(R.layout.activity_theater);
         Bundle intent = getIntent().getExtras();
-        //theater = (Theater) intent.getSerializable("theater");
         theater = (Theater)(intent != null ? intent.getSerializable("theater") : null);
 
         ((ImageView)findViewById(R.id.theater_image_view_details)).setImageResource(theater.getImageId());
@@ -26,6 +27,11 @@ public class TheaterActivity extends AppCompatActivity {
         ((TextView)findViewById(R.id.theater_vk_text_view)).setText(theater.getVk());
         ((TextView)findViewById(R.id.theater_tel_text_view)).setText(theater.getTel());
 
+    }
 
+    public void TroupeButtonClick(View view){
+        Intent intent = new Intent(getApplicationContext(),ActorsActivity.class);
+        intent.putExtra("theater", theater);
+        startActivity(intent);
     }
 }

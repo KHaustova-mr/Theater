@@ -33,16 +33,8 @@ public class MainActivity extends AppCompatActivity {
 
         Theater theater = new Theater();
 
-       /* Intent intent = new Intent(getApplicationContext(), TheaterActivity.class);
-        startActivity(intent);
-
-        int number = (view.getId()==R.id.theaterTUZ)? 0: (view.getId()==R.id.theaterDrama)?1:2;
-        //создание элемента Theater theater с помощью конструктора
-        int id = (number==0)?R.drawable.spas:(number==1)? R.drawable.dram:R.drawable.dol;
-        theater.setImageId(id);
-        intent.putExtra("theater", theater);*/
         int number = (view.getId() == R.id.theaterTUZ) ? 0 : (view.getId()==R.id.theaterDrama) ? 1 : 2;
-        //СЃРѕР·РґР°РЅРёРµ СЌР»РµРјРµРЅС‚Р° Theater theater СЃ РїРѕРјРѕС‰СЊСЋ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
+
         int imageId = (number == 0) ? R.drawable.spas : (number==1) ? R.drawable.dram : R.drawable.dol;
         theater.setImageId(imageId);
         theater.setName(theaterName[number]);

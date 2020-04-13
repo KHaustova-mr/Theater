@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="@dimen/layout_padding">
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/layout_padding"
+    android:orientation="vertical">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/table_actor_card_view"
@@ -26,8 +27,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="@dimen/layout_padding"
-                android:text="Имя актера"
-                android:gravity="center"/>
+                android:gravity="center"
+                android:text="Имя актера" />
         </LinearLayout>
 
     </androidx.cardview.widget.CardView>
